@@ -26,7 +26,7 @@ console.log(lista);
   de la lista
 */
 const items = document.querySelectorAll('li');
-console.log(items[0].textContent, items[3].textContent);
+console.log(items[0], items[3]);
 
 /*
   EJERCICIO C: ----------------------------------------------------------
@@ -45,7 +45,7 @@ console.log(email[2]);
 */
 
 const javaScript = document.querySelectorAll('tr');
-console.log(javaScript[2].textContent);
+console.log(javaScript[2]);
 
 /*
   EJERCICIO E: ----------------------------------------------------------
@@ -55,7 +55,7 @@ console.log(javaScript[2].textContent);
 */
 
 const itemCss =  document.getElementsByTagName('td');
-console.log(itemCss[4].textContent);
+console.log(itemCss[4]);
 
 /*
   EJERCICIO F: ----------------------------------------------------------
